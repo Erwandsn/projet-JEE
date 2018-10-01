@@ -65,8 +65,7 @@ public class Participant {
         this.actif = actif;
     }
 
-    public Participant(int id, String nom, String prenom, String telephone, String mail, Boolean admin, Boolean actif) {
-        this.id = id;
+    public Participant( String nom, String prenom, String telephone, String mail, Boolean admin, Boolean actif) {
         this.nom = nom;
         this.prenom = prenom;
         this.telephone = telephone;
@@ -75,7 +74,4 @@ public class Participant {
         this.actif = actif;
     }
 
-    public Participant(){
-
-    }
 }
